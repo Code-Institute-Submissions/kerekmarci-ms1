@@ -1,45 +1,127 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Website for a gym - Milestone Project 1
 
-Welcome USER_NAME,
+## View live project here: [Gym website](https://github.com/kerekmarci/gym-website)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This website for created as my 1st Milestone Project during my studies at the Code Institute. 
+The website will showcase the languages and tools learned so far, which are HTML, CSS and Bootstrap.
 
-## Gitpod Reminders
+---
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Description
 
-`python3 -m http.server`
+This website represents a gym and is aimed at people who want to live a healthy lifestyle. The website showcases the facilities and classes of the gym, membersip types,
+classes and other relevant information that will benefit both new and existing members.
 
-A blue button should appear to click: *Make Public*,
+---
 
-Another blue button should appear to click: *Open Browser*.
+## User Experience
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The website will rely on visuals and easy navigation - since the website is aimed at potential visitors of the gym as well as existing members,
+I would like to evoke emotions by showcasing them a fit and healty lifestyle. 
 
-A blue button should appear to click: *Make Public*,
+### Stragegy
 
-Another blue button should appear to click: *Open Browser*.
+Target audience:
+* people living withing the radius of 10 miles of the gym
+* people intersted in healthy lifestyle
+* potential new members to sign up for a Membership
+* existing members who wish to stay up-to-date on classes and other relevant social gatherings
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Demography:
+* age between 16 and 60
+* people who wish to get fitter and gain muscle
+* people interested in losing weight
+* people interested in social gatherings with like-minded people
 
-## Updates Since The Instructional Video
+User expectation:
+* easy navigation on desktop, tablet and mobile devices
+* up-to-date information
+* visual and realistic content of the gym
+* all necessary information available by an easy menu system 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Business goals: 
+* Increase memberhips by 15% (in 2021)
+* Grow Revenue by 20% 
+* Start organising social events
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Scope
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+As the aim of the website is to encourage new members to visit/join as well as to retain existing members, the scope of the website will be showcasing the following:
+* Facilities with photos and brief description
+* Membership options
+* Current promotions
+* Timetable for classes
+* Location on a map
+* Organised events and encourage visitors to join
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Structure
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* Banner on top with logo on left and main location info on the right
+* Under the banner there will be the navigation bar with the menu items:
+    * Home
+    * Facilities
+    * Memberships 
+    * Location
+* Footer
+    * Opening hours
+    * Address
+    * Map
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Skeleton
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Wireframes
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Surface
 
---------
+* Theme:
+* Colours
+* Tipography:
+* Icons
 
-Happy coding!
+---
+
+## Features
+
+### Homepage
+
+* Motivating visual on the main landing page
+* Brief overview on the offerings
+* Reviews
+
+### Footer
+
+* Opening hours
+* Address
+* Embedded google map
+
+---
+
+## Technologies used
+
+### Languages
+
+* HTML
+* CSS
+
+### Libraries
+
+* Bootstrap: open-source CSS framework for creating responsive, mobile-first front-end web development
+* Balsamiq: creating wireframes 
+* Google fonts 
+
+### Version control
+
+* Github
+* Gitpod 
+
+---
+
+## Testing
+
+   ### Devices
+   ### Validation
+
+---
+
+## Deployment
+
