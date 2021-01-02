@@ -1,0 +1,19 @@
+body {
+    
+    background-color: #a8a8a8;
+}
+
+.carousel {
+    margin: auto;
+    width: 1200px;
+}
+
+.carousel-inner {
+    height: 24rem;
+    
+}
+
+.carousel-item {
+    
+}
+
