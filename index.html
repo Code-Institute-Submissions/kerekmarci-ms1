@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
 </head>
 <body>
+
+<!--------------------- NAVBAR --------------------->
     <header> 
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container">
@@ -16,7 +18,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> 
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -127,18 +129,44 @@
         
     </section>
 
-    
+<!--------------------- FOOTER--------------------->
 
-    <footer class="container-fluid">
+    <footer class="container" id="footer-bar">
         <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                Opening hours
+            <div class="col-sm-4 footer-card testcolor">
+                <div class="footer-opening-hours-header text-center">
+                    <h4>Opening hours</h4>
+                </div>
+                <div class="footer-opening-hours-content">
+                    <p>Mon-Fri: 6:00-22:00</p>
+                    <p>Sat-sun: 8:00-20:00</p>
+                </div>
             </div>
-            <div class="col-sm-4">
-                Address
+            <div class="col-sm-4 footer-card">
+                <div class="footer-address-header text-center">
+                    <h4>Address</h4>
+                </div>
+                <div class="footer-address-content">
+                    <p>41 Hill Lane</p>
+                    <p>London</p>
+                    <p>SE16 NWB</p>
+                </div>
             </div>
-            <div class="col-sm-4">
-                Find us
+            <div class="col-sm-4 footer-card">
+                <div class="footer-findus-header text-center">
+                    <h4>Find us</h4>
+                </div>
+                <div class="footer-findus-content text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.484502781195!2d-0.21210228463337732!3d51.55935097964375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876108afd66f8d5%3A0x185937bb5bc9a971!2sVirgin%20Active%20Cricklewood%2C%20Cricklewood%20Ln%2C%20London!5e0!3m2!1shu!2suk!4v1609710536405!5m2!1shu!2suk"
+                     width="80%" height="80%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <!--Google map
+<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+  <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+    style="border:0" allowfullscreen></iframe>
+</div>
+
+Google Maps-->
+                </div>
             </div>
         </div>
     </footer>
