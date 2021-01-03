@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&family=PT+Sans:wght@400;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    
+    font-family: 'Raleway', sans-serif;
     background-color: #a8a8a8;
+}
+
+/* ------------------------ COLORS AND FONTS*/
+
+.card-title {
+    font-family: 'Heebo', sans-serif;
 }
 
 .carousel {
@@ -9,11 +22,37 @@ body {
 }
 
 .carousel-inner {
-    height: 24rem;
-    
+    height: 24rem;    
 }
 
 .carousel-item {
     
 }
 
+/* ------------------------ PADDINGS, MARGINS, TEXT */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#main-offers {
+    background-color: #a8a8a8;
+    padding: 30px 0px;
+}
+
+#main-offers h3 {
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.card {
+    margin: 0px 5px;
+}
+
+.card-body {
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+}
+
+.card-body:hover {
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
