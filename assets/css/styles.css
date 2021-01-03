@@ -12,6 +12,10 @@ body {
 
 /* ------------------------ COLORS AND FONTS*/
 
+.card {
+    background-color: #ece5e5;
+}
+
 .card-title {
     font-family: 'Heebo', sans-serif;
 }
@@ -58,4 +62,24 @@ body {
 
 .card-body:hover {
     box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+
+.gym-portrait {
+    float: left;
+}
+
+.review {
+    padding: 10px;
+    margin-left: 170px;
+}
+
+.review-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.review-card {
+    margin-left: 0px;
 }
