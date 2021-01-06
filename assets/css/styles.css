@@ -7,6 +7,22 @@ body {
 
 /* ------------------------ COLORS AND FONTS*/
 
+.navbar {
+    background-color: #222222;    
+}
+
+.nav-link {
+    color: #B3B3B3;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.active {
+    color: #fff;
+}
+
 .carousel-item {
     height: 40rem;
     color: #fafafa;
@@ -16,7 +32,7 @@ body {
 .carousel-container {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 50px;
     right: 0;
     padding-bottom: 50px;
 }
@@ -41,7 +57,7 @@ body {
 }
 
 .whoarewe-wrapper {
-    color: #ebe5e5;
+    color: #D2D3D3;
 }
 
 #footer-bar {
