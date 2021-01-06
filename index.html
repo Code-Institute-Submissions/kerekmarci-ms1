@@ -42,20 +42,59 @@
     </header>
 <!--------------------- CAROUSEL--------------------->
     <section>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/images/carousel2b.jpg" class="d-block carousel-resize" alt="...">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="overlay-image" style="background-image:url(./assets/images/carousel2b.jpg);">
+                    </div>
+                    <div class="carousel-container">
+                        <h1>Welcome!</h1>
+                        <p>You've found the best gym in London!</p>
+                    </div>                                  
                 </div>
-                <div class="carousel-item">
-                    <img src="assets/images/carousel3b.jpg" class="d-block carousel-resize" alt="...">
+                <div class="carousel-item" data-bs-interval="5000">
+                    <div class="overlay-image" style="background-image:url(./assets/images/carousel3b.jpg);">
+                    </div>
+                    <div class="carousel-container">
+                        <h1>2nd slide</h1>
+                        <p>Some cool text here</p>
+                    </div>                                  
                 </div>
-                <div class="carousel-item">
-                    <img src="assets/images/carousel4.jpg" class="d-block carousel-resize" alt="...">
+                <div class="carousel-item" data-bs-interval="5000">
+                    <div class="overlay-image" style="background-image:url(./assets/images/carousel4.jpg);">
+                    </div>
+                    <div class="carousel-container">
+                        <h1>3rd slide</h1>
+                        <p>More cool text......</p>
+                    </div>                                  
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section>
+
+<!--------------------- WHO ARE WE--------------------->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="whoarewe-header">
+                    <h3 class="uppsercase">Who are we?</h3>
+                </div>
+                <div class="whoarewe-content">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora repellat, pariatur similique temporibus, molestias eum aspernatur doloribus esse ullam harum delectus iusto deleniti. Magni, optio.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 <!--------------------- MAIN OFFERS --------------------->
 
@@ -63,7 +102,7 @@
        <div class="container">
            <div class="row">
                 <div class="col-md-4">
-                    <div class="card text-center">
+                    <div class="card h-100 text-center">
                         <div class="card-body">
                             <h3 class="card-title uppercase">7 days free trial</h3>
                             <p>Try out our gym for a full week with no obligations at all!</p>
@@ -72,7 +111,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-center">
+                    <div class="card h-100 text-center">
                         <div class="card-body">
                             <h3 class="card-title uppercase">Schedules & Classes</h3>
                             <p>Start workout today! Join our exciting classes!</p>
@@ -81,7 +120,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-center">
+                    <div class="card h-100 text-center">
                         <div class="card-body">
                             <h3 class="card-title uppercase">Memberships</h3>
                             <p>Be part of it - sign up today!</p>
@@ -92,6 +131,7 @@
            </div>
         </div>
     </section>
+
 
 <!--------------------- SUCCESS STORIES--------------------->
 
@@ -107,21 +147,21 @@
                             <div class="gym-portrait">
                                 <img src="assets/images/gymportrait1.jpg" class="review-image" alt="Photo of reviewer">
                             </div>
-                                <div class="review">
-                                    <h5>Absolutely the best!</h5>
-                                    <p>I go to this gym instead of eating and keep losing 5 kg every week. My husband loves me again!</p>
-                                </div>
+                            <div class="review">
+                                <h5>Absolutely the best!</h5>
+                                <p>I go to this gym instead of eating and keep losing 5 kg every week. My husband loves me again!</p>
                             </div>
-                                <div class="col-md-6">
-                                    <div class="gym-portrait">
-                                        <img src="assets/images/gymportrait2.jpg" class="review-image" alt="Photo of reviewer">
-                                    </div>
-                                    <div class="review">
-                                        <h5>Top-notch</h5>
-                                        <p>This gym opened a new world for me! I'm so fit as I've never been before.</p>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="gym-portrait">
+                                <img src="assets/images/gymportrait2.jpg" class="review-image" alt="Photo of reviewer">
                             </div>
+                            <div class="review">
+                                <h5>Top-notch</h5>
+                                <p>This gym opened a new world for me! I'm so fit as I've never been before.</p>
+                            </div>
+                        </div>
+                    </div>
                     
                 </div>
             </div>
@@ -159,13 +199,6 @@
                 <div class="footer-findus-content text-center">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.484502781195!2d-0.21210228463337732!3d51.55935097964375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876108afd66f8d5%3A0x185937bb5bc9a971!2sVirgin%20Active%20Cricklewood%2C%20Cricklewood%20Ln%2C%20London!5e0!3m2!1shu!2suk!4v1609710536405!5m2!1shu!2suk"
                      width="80%" height="80%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    <!--Google map
-<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-  <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-    style="border:0" allowfullscreen></iframe>
-</div>
-
-Google Maps-->
                 </div>
             </div>
         </div>
