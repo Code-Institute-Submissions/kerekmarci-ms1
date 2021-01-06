@@ -148,6 +148,21 @@ body {
     margin-bottom: 50px;
 }
 
+/* ------------------------ PRICING PLAN */
+
+#pricing-plan-wrapper {
+    background-color: #222222;
+    padding: 30px 0px;
+}
+
+ .pricing-plan-title {
+    color: #FFF;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+
+
 .active {
     color: #fff;
 }
@@ -197,15 +212,6 @@ body {
     text-transform: uppercase;
 }
 
-#main-offers {
-    background-color: #a8a8a8;
-    padding: 30px 0px;
-}
-
-#main-offers h3 {
-    font-weight: 500;
-    padding-bottom: 5px;
-}
 
 .card {
     margin: 0px 5px;
