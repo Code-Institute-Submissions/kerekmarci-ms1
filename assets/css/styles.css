@@ -21,12 +21,26 @@ body {
 
 /* ------------------------ MOTIVATION*/
 
+.motivation h5 {    
+    font-size: 20px;
+    display: inline;    
+}
+
+.motivation p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
 .motivation-left {
     background-color: #DB4749;
 }
 
-.motivation-right {
-    background-color: grey;
+.motivation-right {    
+    background-image: url(/assets/images/motivation-bg-right.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .motivation-left,
@@ -53,6 +67,9 @@ body {
 
 .motivation a {
     color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.5px;
     text-decoration: none;
     border: 1px solid #fff;
     padding: 12px;
