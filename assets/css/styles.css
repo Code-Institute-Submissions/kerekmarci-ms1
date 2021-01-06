@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #3f3d3d;        
+    background-color: #ffffff;        
 }
 
 /* ------------------------ COLORS AND FONTS*/
@@ -25,10 +25,17 @@ body {
     background-color: #DB4749;
 }
 
+.motivation-right {
+    background-color: grey;
+}
+
 .motivation-left,
 .motivation-right {
     color: #fff; 
-    padding: 30px 60px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 90px;
 }
 
 .motivation-text-left {
@@ -49,6 +56,30 @@ body {
     text-decoration: none;
     border: 1px solid #fff;
     padding: 12px;
+}
+
+
+/* ------------------------ WHO ARE WE?*/
+
+.whoarewe-header {
+    text-align: center;
+}
+
+.whoarewe-header {
+    color: #383838;
+}
+
+.whoarewe-content {
+    color: #9B9B9B;
+}
+
+.whoarewe-wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.whoarewe-wrapper img {
+    width: 350px;    
 }
 
 .active {
@@ -88,9 +119,7 @@ body {
     font-family: 'Heebo', sans-serif;
 }
 
-.whoarewe-wrapper {
-    color: #D2D3D3;
-}
+
 
 #footer-bar {
     background-color: #979797;
