@@ -19,6 +19,38 @@ body {
     color: #fff;
 }
 
+/* ------------------------ MOTIVATION*/
+
+.motivation-left {
+    background-color: #DB4749;
+}
+
+.motivation-left,
+.motivation-right {
+    color: #fff; 
+    padding: 30px 60px;
+}
+
+.motivation-text-left {
+    float: right;
+}
+
+.motivation-text-right {
+    float: left;
+}
+
+.motivation-text-left, 
+.motivation-text-right {
+    max-width: 550px;
+}
+
+.motivation a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px;
+}
+
 .active {
     color: #fff;
 }
