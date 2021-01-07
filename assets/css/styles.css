@@ -52,7 +52,7 @@ body {
 
 .motivation-right {    
     background-color: #000000;
-    background-image: url(/assets/images/motivation-bg-right3.jpg);
+    background-image: url("../assets/images/motivation-bg-right3.jpg");
     opacity: 0.8;
     background-position: center top;
     background-size: cover;
