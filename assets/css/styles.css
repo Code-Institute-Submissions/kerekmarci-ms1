@@ -154,6 +154,9 @@ body {
 #pricing-plan-wrapper {
     background-color: #222222;
     padding: 30px 0px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/pricing-plan-bg2.jpg");    
+    background-position: center bottom;
+    background-size: cover;    
 }
 
  .pricing-plan-title {
@@ -162,6 +165,55 @@ body {
     padding-bottom: 5px;
 }
 
+.pricing-plan-title > p {
+    color: #DB4749;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.pricing-header {
+    background-color: #383838;    
+    color: #fff;
+    padding: 40px;
+}
+
+.pricing-header > p {
+    color: #9B9B9B;
+}
+
+.pricing-header > i {
+    margin-bottom: 25px;
+}
+
+.ph-highlighted {
+    background-color: #DB4749;
+}
+
+.ph-highlighted > p {
+    color: #222222;
+}
+
+.btn-normal {
+    color: #fff;
+    background-color: #383838;
+    border-color: #383838;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+}
+
+.btn-normal:hover {
+    color: #9B9B9B;
+}
+
+.btn-highlight {
+    color: #fff;
+    background-color: #DB4749;
+    border-color: #DB4749;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+}
 
 
 .active {
