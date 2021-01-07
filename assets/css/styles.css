@@ -21,6 +21,31 @@ body {
 
 /* ------------------------ CAROUSEL*/
 
+.carousel-item {
+    height: 40rem;
+    color: #fafafa;
+    position: relative;
+}
+
+.carousel-container {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center top;
+    background-size: cover;
+    /* opacity: 0.9; */
+}
+
 .carousel-container h1 {
     font-size: 140px;
     font-weight: 400;
@@ -218,31 +243,6 @@ body {
 
 .active {
     color: #fff;
-}
-
-.carousel-item {
-    height: 40rem;
-    color: #fafafa;
-    position: relative;
-}
-
-.carousel-container {
-    position: absolute;
-    bottom: 0;
-    left: 50px;
-    right: 0;
-    padding-bottom: 50px;
-}
-
-.overlay-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: center;
-    background-size: cover;
-    /* opacity: 0.9; */
 }
 
 .card {
