@@ -61,13 +61,13 @@ body {
 
 .motivation h5 {    
     font-size: 20px;
-    display: inline;    
+    display: inline;        
 }
 
 .motivation p {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 40px;
 }
 
