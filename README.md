@@ -1,6 +1,6 @@
 # Website for a gym - Milestone Project 1
 
-## View live project here: [Gym website](https://github.com/kerekmarci/gym-website)
+## View live project here: [Gym website](https://kerekmarci.github.io/gym-website/)
 
 This website for created as my 1st Milestone Project during my studies at the Code Institute. 
 The website will showcase the languages and tools learned so far, which are HTML, CSS and Bootstrap.
