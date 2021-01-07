@@ -115,7 +115,8 @@ body {
 }
 
 
-/* ------------------------ WHO ARE WE?*/
+/* ------------------------ WHO ARE WE? ------------ OUR TRAINERS ---------*/
+/* These two sections share very similar styling*/
 
 .whoarewe {
     display: flex;
@@ -245,6 +246,10 @@ body {
     font-weight: 500;
     padding-bottom: 5px;
 }
+
+ .pricing-plan-title > h1 {
+    letter-spacing: 3px;
+ }
 
 .pricing-plan-title > p {
     color: #DB4749;
