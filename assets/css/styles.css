@@ -152,7 +152,7 @@ body {
 
 .whoarewe-content {
     color: #9B9B9B;
-    font-family: Source Sans, 'Source Sans Pro', Times, serif;
+    font-family: 'Source Sans', 'Source Sans Pro', Times, serif;
     line-height: 1.7;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -191,9 +191,43 @@ body {
     padding-bottom: 50px;
 }
 
-.success-header {
+.success-header {    
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.success-header > h2 {
     color: #383838;
-    margin-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.review {
+    padding: 10px;
+    margin-left: 170px;
+}
+
+.review > h5 {
+    color: #222222;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.review p {
+    font-family: 'Source Sans', 'Source Sans Pro', Times, serif;
+    margin-top: 20px;
+}
+
+.review-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.review-card {
+    margin-left: 0px;
+    margin-top: 20px;
 }
 
 /* ------------------------ PRICING PLAN */
@@ -302,22 +336,6 @@ body {
 
 .gym-portrait {
     float: left;
-}
-
-.review {
-    padding: 10px;
-    margin-left: 170px;
-}
-
-.review-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 5px;
-}
-
-.review-card {
-    margin-left: 0px;
 }
 
 #footer-bar {
