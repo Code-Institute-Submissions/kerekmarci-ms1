@@ -140,10 +140,15 @@ body {
 
 .whoarewe {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;  
+}
+
+.whoarewe p {
+    font-family: 'Source Sans', 'Source Sans Pro', Times, serif;
+    color: #9B9B9B;
 }
 
 .whoarewe > img {
