@@ -389,6 +389,23 @@ body {
     color: #9B9B9B;
 }
 
-.testcolor {
-    background-color: #71dafa;
+/* ------------------------ PHOTO GALLERY ----------- */
+
+#banner {   
+    background-image: url("../images/banner-2.jpg");
+    background-position: center center;
+    height: 400px;
+
+}
+
+#gallery h3 {
+    font-family: "Raleway", sans-serif;
+    color: #383838;
+    text-transform: capitalize;
+    size: 36px;
+    font-weight: 500;
+}
+
+#gallery img {
+    width: 350px;    
 }
