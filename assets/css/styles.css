@@ -412,6 +412,17 @@ body {
 
 /* ------------------------ CONTACT FORM ----------- */
 
-input[type="radio"] {
-    
+
+
+
+/* ------------------------ FACILITIES ----------- */
+
+.textwrap-right {    
+    float: right;
+    margin-left: 50px;
+}
+
+.textwrap-left {    
+    float: left;
+    margin-right: 50px;
 }
