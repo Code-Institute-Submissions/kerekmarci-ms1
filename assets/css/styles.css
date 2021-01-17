@@ -426,3 +426,37 @@ body {
     float: left;
     margin-right: 50px;
 }
+
+#facilities {
+    max-width: 1000px;
+}
+
+#facilities p {
+    font-family: 'Source Sans', 'Source Sans Pro', Times, serif;
+    color: #9B9B9B;
+}
+
+#facilities h3 {
+    font-family: "Raleway", sans-serif;
+    color: #383838;    
+    size: 36px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+#facilities img {
+    width: 480px;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .facilities-grid-row-text {
+        flex-direction: column-reverse;      
+    }    
+    
+}
