@@ -50,74 +50,129 @@
 
 <!--------------------- CONTENT --------------------->
 
-<section class="container-fluid" id="pricing-plan-wrapper">
+<section class="container-fluid" id="membership-wrapper">
         <div class="container">
             <div class="pricing-plan-title py-5 text-center">
-                <h1 class="uppercase">Pricing plans</h1>
-                <p class="pb-4">Whatever your goals are... We have the right offer for you!</p>
+                <h1 class="pb-4 uppercase membership-heading">Pricing plans</h1>
+                <p class="pb-4 pt-3 membership-desciption">We have a variety of great-value membership options so that you'll find the one that suits your goals!</p>
             </div>
 
             <div class="row row-cols-1 row-cols-md-3 text-center">
                 <div class="col pb-4">
-                    <div class="card shadow-sm">
+                    <div class="card">
                         <div class="pricing-header">
-                            <i class="fas fa-dumbbell"></i>
+                            <i class="fas fa-angle-double-right membership-icon"></i>
                             <h4 class="uppercase">Basic plan</h4>
                             <p>Let's get started</p>
                         </div>
-                        <div class="card-body">
-                            <h1 class="pricing-card-title">&#163;69 / mo</h1>
-                            <ul class="list-unstyled mt-3 mb-4">
+                        <div>
+                            <h1>&#163;69 / mo</h1>
+                            <ul class="list-unstyled mt-4 mb-4">
                                 <li>Daytime entry</li>
                                 <li>Use of facilities</li>
                                 <li>Discounted classes</li>
                                 <li>Swimming pool</li>
-                            </ul>
-                            <button type="button" class="btn btn-lg btn-normal rounded-pill">Sign up now</button>
+                            </ul>                            
                         </div>
                     </div>
                 </div>
                 <div class="col pb-4">
-                    <div class="card shadow-sm">
+                    <div class="card">
                         <div class="pricing-header ph-highlighted">
-                            <i class="fas fa-running"></i>
+                            <i class="fas fa-running membership-icon"></i>
                             <h4 class="uppercase">Sports plan</h4>
                             <p>Bring it to the next level</p>
                         </div>
-                        <div class="card-body">
-                            <h1 class="pricing-card-title">&#163;99 / mo</h1>
-                            <ul class="list-unstyled mt-3 mb-4">
+                        <div>
+                            <h1>&#163;99 / mo</h1>
+                            <ul class="list-unstyled mt-4 mb-4">
                                 <li>Anytime entry</li>
                                 <li>Unlimited classes</li>
                                 <li>Swimming pool</li>
-                                <li>Personal trainer</li>
-                            </ul>
-                            <button type="button" class="btn btn-lg btn-highlight rounded-pill">Sign up now</button>
+                                <li>Discounted PT</li>
+                            </ul>                            
                         </div>
                     </div>
                 </div>   
                 <div class="col pb-4">
-                    <div class="card shadow-sm">
+                    <div class="card">
                         <div class="pricing-header">
-                            <i class="fas fa-running"></i>
+                            <i class="fas fa-dumbbell membership-icon"></i>
                             <h4 class="uppercase">Professional plan</h4>
                             <p>Challenge your limits!</p>
                         </div>
-                        <div class="card-body">
-                            <h1 class="pricing-card-title">&#163;159 / mo</h1>
-                            <ul class="list-unstyled mt-3 mb-4">
+                        <div>
+                            <h1>&#163;159 / mo</h1>
+                            <ul class="list-unstyled mt-4 mb-4">
                                 <li>Anytime entry</li>
                                 <li>Unlimited classes</li>
                                 <li>Swimming pool</li>
                                 <li>Personal trainer</li>
-                            </ul>
-                            <button type="button" class="btn btn-lg btn-normal rounded-pill">Sign up now</button>
+                            </ul>                            
                         </div>
                     </div>
                 </div>                         
             </div>
         </div>
     </section>
+
+<div class="contactus-wrapper container">
+    <div class="row">
+            <div class="col">
+                                       
+                </div>
+            </div>
+    
+    
+    <div class="row" id="contact-form">        
+        <div class="col-md-6">
+            <h3 class="page-heading">Send us a message</h3>
+                <p>Fill out the form with your details, and one of our friendly team members will reply to within 24 hours.</p>
+            <div class="form-group">
+                <form>
+                    <h5><label for="name">Name</label></h5>
+                    <input type="text" id="name" name="username" class="form-control" placeholder="Your name" required>
+
+                    <br>
+
+                    <h5><label for="email">Email</label></h5>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Your email" required>
+
+                    <br>
+
+                    <h5>Subject</h5>
+                    <div class="form-selection">
+                        <input type="radio" name="subject" id="membership" value="membership" required>
+                        <label for="membership">Memberships</label>
+                    </div>
+
+                    <div class="form-selection">
+                        <input type="radio" name="subject" id="classes" value="classes">
+                        <label for="classes">Classes</label>
+                    </div>
+
+                    <div class="form-selection">
+                        <input type="radio" name="subject" id="pt" value="pt">
+                        <label for="pt">Personal training</label>
+                    </div>
+
+                    <div class="form-selection">
+                        <input type="radio" name="subject" id="otherinquiry" value="otherinquiry">
+                        <label for="otherinquiry">Other</label>
+                    </div>
+                    <br>
+                    <div class="pb-3">
+                        <h5><label for="message">Your message</label></h5>
+                        <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
+                    </div>    
+
+                    <button type="submit">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--------------------- FOOTER--------------------->
 
