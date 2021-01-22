@@ -42,13 +42,9 @@
         </nav>        
     </header>
 
-<!--
-<div id="banner" class="container-fluid">
-    
-</div>
--->
 
-<!--------------------- CONTENT --------------------->
+
+<!--------------------- CONTENT / MEMBERSHIP OPTIONS --------------------->
 
 <section class="container-fluid" id="membership-wrapper">
         <div class="container">
@@ -65,15 +61,17 @@
                             <h4 class="uppercase">Basic plan</h4>
                             <p>Let's get started</p>
                         </div>
-                        <div>
-                            <h1>&#163;69 / mo</h1>
-                            <ul class="list-unstyled mt-4 mb-4">
-                                <li>Daytime entry</li>
-                                <li>Use of facilities</li>
-                                <li>Discounted classes</li>
-                                <li>Swimming pool</li>
-                            </ul>                            
-                        </div>
+                        <div class="pricing-content">
+                            <div class="vh-center">
+                                <h1>&#163;69 / mo</h1>
+                                <ul class="list-unstyled mt-4 mb-4">
+                                    <li>Daytime entry</li>
+                                    <li>Use of facilities</li>
+                                    <li>Discounted classes</li>
+                                    <li>Swimming pool</li>
+                                </ul>                            
+                            </div>
+                        </div>                    
                     </div>
                 </div>
                 <div class="col pb-4">
@@ -83,14 +81,16 @@
                             <h4 class="uppercase">Sports plan</h4>
                             <p>Bring it to the next level</p>
                         </div>
-                        <div>
-                            <h1>&#163;99 / mo</h1>
-                            <ul class="list-unstyled mt-4 mb-4">
-                                <li>Anytime entry</li>
-                                <li>Unlimited classes</li>
-                                <li>Swimming pool</li>
-                                <li>Discounted PT</li>
-                            </ul>                            
+                         <div class="pricing-content">
+                            <div class="vh-center">
+                                 <h1>&#163;99 / mo</h1>
+                                <ul class="list-unstyled mt-4 mb-4">
+                                    <li>Anytime entry</li>
+                                    <li>Unlimited classes</li>
+                                    <li>Swimming pool</li>
+                                    <li>Discounted PT</li>
+                                </ul> 
+                            </div>                                                  
                         </div>
                     </div>
                 </div>   
@@ -101,20 +101,26 @@
                             <h4 class="uppercase">Professional plan</h4>
                             <p>Challenge your limits!</p>
                         </div>
-                        <div>
-                            <h1>&#163;159 / mo</h1>
-                            <ul class="list-unstyled mt-4 mb-4">
-                                <li>Anytime entry</li>
-                                <li>Unlimited classes</li>
-                                <li>Swimming pool</li>
-                                <li>Personal trainer</li>
-                            </ul>                            
+                        <div class="pricing-content">
+                            <div class="vh-center">
+                                <h1>&#163;159 / mo</h1>
+                                <ul class="list-unstyled mt-4 mb-4">
+                                    <li>Anytime entry</li>
+                                    <li>Unlimited classes</li>
+                                    <li>Swimming pool</li>
+                                    <li>Personal trainer</li>
+                                </ul>     
+                            </div>                                               
                         </div>
                     </div>
                 </div>                         
             </div>
         </div>
     </section>
+
+
+
+<!--------------------- CONTACT FORM --------------------->
 
 <div class="contactus-wrapper container">
     <div class="row">
@@ -124,7 +130,22 @@
             </div>
     
     
-    <div class="row" id="contact-form">        
+    <div class="row" id="contact-form">
+        <div class="col-md-6">
+            <div class="whoarewe-header">
+                <h3 class="page-heading">Join today!</h3>
+                <p>Enter your details in the form and select the membership option you're interested in. If you have other queries, let us know!</p>
+                <h5 class="pt-3">Our email address:</h5>
+                <p> <a href="mailto:info@gymhero.com" target="_blank" class="email-link">info@gymhero.com</a></p>
+                <h3 class="page-heading pt-5">3 reasons to join now:</h3>
+                    <ul class="mt-4 mb-4 pb-5">
+                        <li>No joining fee</li>
+                        <li>No annual contract</li>
+                        <li>Voted the best new gym in London in 2020</li>                        
+                    </ul>  
+            </div>                      
+        </div>
+
         <div class="col-md-6">
             <h3 class="page-heading">Send us a message</h3>
                 <p>Fill out the form with your details, and one of our friendly team members will reply to within 24 hours.</p>
@@ -140,25 +161,25 @@
 
                     <br>
 
-                    <h5>Subject</h5>
+                    <h5>Membership type</h5>
                     <div class="form-selection">
-                        <input type="radio" name="subject" id="membership" value="membership" required>
-                        <label for="membership">Memberships</label>
+                        <input type="radio" name="memb-type" id="basic-memb" value="basic-memb" required>
+                        <label for="membership">Basic plan</label>
                     </div>
 
                     <div class="form-selection">
-                        <input type="radio" name="subject" id="classes" value="classes">
-                        <label for="classes">Classes</label>
+                        <input type="radio" name="memb-type" id="sports-memb" value="sports-memb">
+                        <label for="classes">Sports plan</label>
                     </div>
 
                     <div class="form-selection">
-                        <input type="radio" name="subject" id="pt" value="pt">
-                        <label for="pt">Personal training</label>
+                        <input type="radio" name="memb-type" id="pro-memb" value="pro-memb">
+                        <label for="pt">Professional plan</label>
                     </div>
 
                     <div class="form-selection">
-                        <input type="radio" name="subject" id="otherinquiry" value="otherinquiry">
-                        <label for="otherinquiry">Other</label>
+                        <input type="radio" name="memb-type" id="otherinquiry" value="otherinquiry">
+                        <label for="otherinquiry">Other inquiry</label>
                     </div>
                     <br>
                     <div class="pb-3">
@@ -173,7 +194,7 @@
         </div>
     </div>
 </div>
-
+    
 <!--------------------- FOOTER--------------------->
 
 <section class="container-fluid" id="footer-bar">

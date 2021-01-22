@@ -17,13 +17,14 @@ body p {
 /* ------------------------ BANNER */
 
 #banner {       
-    position: relative;   
-    background-image: url("../images/banner-2.jpg");
+    position: relative;    
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("../images/banner-2.jpg");  
     background-position: center center;
     height: 400px;      
 } 
 
-#overlay {  /* To darken background image */
+/* To darken background image
+#overlay {  
     position: absolute;
     background-color: #000;
     height: 100%;
@@ -31,11 +32,9 @@ body p {
     top: 0;
     left: 0;
     opacity: 0.55;    
-}
+} */ 
 
 #banner h1 {      
-    position: relative;
-    z-index: 1;
     font-size: 60px;
     letter-spacing: 3px; 
     color: #fff;    
@@ -48,21 +47,9 @@ body p {
     margin-top: 50px;
 }
 
-#banner p {
-    position: relative;
-    z-index: 1;
+#banner p {    
     color: #DB4749;
     font-style: italic;    
-}
-
-#banner-content {  /* To vertically and horizontally center the heading */
-    margin: 0;
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
 
 /* ------------------------ HEADINGS */
@@ -101,6 +88,15 @@ body p {
 
 .card {
     margin: 0px 5px;
+}
+
+.vh-center { /* Vertical and horizontal centering*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 /* ------------------------ CAROUSEL*/
@@ -400,7 +396,7 @@ body p {
     color: #fff;
 }
 
-.card {
+.card {    
     background-color: #ece5e5;
 }
 
@@ -475,6 +471,11 @@ body p {
 
 .membership-icon {
     font-size: 36px;
+}
+
+.pricing-content {
+    position: relative;
+    height: 280px;
 }
  
 
