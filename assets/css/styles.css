@@ -614,12 +614,31 @@ body p {
         padding-left: 35px;
         padding-right: 35px;
         margin-top: 40px;
+    } 
+
+    .gym-portrait {
+        float: none;
+        display: block;   
+        margin: auto;
+        width: 50%;        
     }
-    
+
+    .review {
+        margin-left: 0;        
+    }   
+
 }
 
 
 @media screen and (max-width: 768px) {
+    
+    .container-wrapper {
+        margin-top: 50px;
+        margin-bottom: 50px;        
+        padding-left: 15px;
+        padding-right: 15px;
+}
+    
     .facilities-grid-row-text {        
         flex-direction: column-reverse;      
     }    
