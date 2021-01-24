@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&family=PT+Sans:wght@400;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
 
+:root {
+    --navbar-font: 'Source Sans Pro', Times, serif;
+    --navbar-color: #B3B3B3;
+}
+
 body {    
     font-family: 'Oswald', sans-serif;    
     background-color: #ffffff;   
@@ -54,6 +59,11 @@ body p {
 
 /* ------------------------ HEADINGS */
 
+.navbar {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}    
+
 .page-heading {
     font-family: "Raleway", sans-serif;
     color: #383838;
@@ -64,6 +74,22 @@ body p {
     margin-bottom: 25px; 
 }
 
+.gym-name-part-1 {
+    color: #DB4749;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.gym-name-part-2 {
+    color: #BFBFBF; 
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
 /* ------------------------ NAVBAR */
 
 .navbar {
@@ -71,7 +97,10 @@ body p {
 }
 
 .nav-link {
-    color: #B3B3B3;
+    font-family: var(--navbar-font);
+    text-transform: uppercase;
+    color: var(--navbar-color);
+    font-weight: 600;
 }
 
 .nav-link:hover {
