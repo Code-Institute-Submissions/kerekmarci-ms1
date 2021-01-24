@@ -2,7 +2,7 @@
 
 body {    
     font-family: 'Oswald', sans-serif;    
-    background-color: #ffffff;        
+    background-color: #ffffff;   
 }
 
 body p {
@@ -609,7 +609,7 @@ body p {
 @media screen and (max-width: 576px) {
 
     .carousel-item {
-        height: 50vh;      
+        height: 40vh;      
     }
 
     .carousel-container h1 {
@@ -619,6 +619,14 @@ body p {
     .carousel-container h2 {
         font-size: 40px;
     }
+
+    .motivation-left,
+    .motivation-right {        
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 60px;
+}
     
     #contact-form {
         margin-left: 5px;
@@ -671,13 +679,14 @@ body p {
 
 @media screen and (min-width: 577px) {
     .carousel-item {
-        height: 38vw; 
+        height: 35vw; 
         min-height: 500px;        
     }
     
 }
 
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 1400px) {  
+
     .carousel-container h1 {
         font-size: 90px;        
     }
