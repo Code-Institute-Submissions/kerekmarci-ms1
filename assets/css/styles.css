@@ -455,14 +455,20 @@ body p {
 }
 
 .social-networks li {
-    display: inline;   
+    display: inline;       
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
+    font-size: 160%;     
     padding: 5%;
     color: #9B9B9B;
+    transition: all 0.3s ease; 
+    -webkit-transition: all 0.3s ease;  
+    -moz-transition: all 0.3s ease;
+}
+
+.social-networks i:hover {
+    color: #DB4749;
 }
 
 /* ------------------------ MEMBERSHIPS ----------- */
@@ -666,6 +672,6 @@ body p {
     
     #facilities img {
         padding-top: 40px;
-    }
+    }   
 
 }
