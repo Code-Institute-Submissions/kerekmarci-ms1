@@ -627,6 +627,27 @@ body p {
         margin-left: 0;        
     }   
 
+    .feature-content {        
+        border-right: none;               
+    }
+
+    .feature-content:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 75%;
+        border-bottom: 1px solid #9B9B9B;
+    }
+
+    .feature-content-last:after {        
+        border-bottom: none;
+    }
+
+    .feature-content > i {          
+        padding-top: 20px;
+        padding-bottom: 10px;
+}
+
 }
 
 
