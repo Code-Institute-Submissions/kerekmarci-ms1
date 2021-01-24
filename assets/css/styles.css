@@ -20,6 +20,61 @@ body p {
     font-family: 'Oswald', sans-serif; 
 }
 
+
+/* ------------------------ PADDINGS, MARGINS, TEXT */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.container-wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card {
+    margin: 0px 5px;
+}
+
+.vh-center { /* Vertical and horizontal centering*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.link-box,
+.link-box:hover { /* Link text with a box border around */
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px;
+    transition: all 0.3s ease; 
+    -webkit-transition: all 0.3s ease;  
+    -moz-transition: all 0.3s ease;
+}
+
+.link-box-dark {
+    color: #222222;
+    border: 1px solid #222222;
+    padding: 8px;    
+}
+
+.link-box-dark:hover {
+    color: #DB4749;
+    border: 1px solid #DB4749;
+    padding: 8px;
+}
+
+
 /* ------------------------ BANNER */
 
 #banner {       
@@ -142,58 +197,6 @@ body p {
     color: #BFBFBF;
 }
 
-/* ------------------------ PADDINGS, MARGINS, TEXT */
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.container-wrapper {
-    margin-top: 80px;
-    margin-bottom: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.card {
-    margin: 0px 5px;
-}
-
-.vh-center { /* Vertical and horizontal centering*/
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.link-box,
-.link-box:hover { /* Link text with a box border around */
-    color: #fff;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-size: 15px;
-    letter-spacing: 1.5px;
-    text-decoration: none;
-    border: 1px solid #fff;
-    padding: 12px;
-    transition: all 0.3s ease; 
-    -webkit-transition: all 0.3s ease;  
-    -moz-transition: all 0.3s ease;
-}
-
-.link-box-dark {
-    color: #222222;
-    border: 1px solid #222222;
-    padding: 8px;    
-}
-
-.link-box-dark:hover {
-    color: #DB4749;
-    border: 1px solid #DB4749;
-    padding: 8px;
-}
 
 
 /* ------------------------ MOTIVATION BOX*/
@@ -247,13 +250,6 @@ body p {
 /* ------------------------ WHO ARE WE? ------------ OUR TRAINERS ---------*/
 /* These two sections share very similar styling*/
 
-.whoarewe {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;  
-}
 
 .whoarewe p {
     font-family: 'Source Sans', 'Source Sans Pro', Times, serif;
