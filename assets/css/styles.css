@@ -3,6 +3,7 @@
 :root {
     --navbar-font: 'Source Sans Pro', Times, serif;
     --navbar-color: #B3B3B3;
+    --carousel-font: 'Oswald', sans-serif; 
 }
 
 body {    
@@ -59,11 +60,6 @@ body p {
 
 /* ------------------------ HEADINGS */
 
-.navbar {
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
-}    
-
 .page-heading {
     font-family: "Raleway", sans-serif;
     color: #383838;
@@ -73,6 +69,9 @@ body p {
     letter-spacing: 1.4px;
     margin-bottom: 25px; 
 }
+
+
+/* ------------------------ NAVBAR */
 
 .gym-name-part-1 {
     color: #DB4749;
@@ -90,9 +89,9 @@ body p {
     font-style: italic;
 }
 
-/* ------------------------ NAVBAR */
-
 .navbar {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
     background-color: #222222;    
 }
 
@@ -103,10 +102,45 @@ body p {
     font-weight: 600;
 }
 
-.nav-link:hover {
-    color: #fff;
+
+/* ------------------------ CAROUSEL*/
+
+.carousel-item {       
+    color: #fafafa;
+    position: relative;
 }
 
+.carousel-container {
+    position: absolute;  
+    right: 0;
+    left: 50px;
+    bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center top;
+    background-size: cover;    
+}
+
+.carousel-container {
+    font-family: var(--carousel-font);
+}
+
+.carousel-container h1 {
+    font-size: 120px;
+    font-weight: 400;
+}
+
+.carousel-container h2 {
+    font-size: 80px;
+    font-weight: 300;
+    color: #BFBFBF;
+}
 
 /* ------------------------ PADDINGS, MARGINS, TEXT */
 
@@ -161,42 +195,6 @@ body p {
     padding: 8px;
 }
 
-/* ------------------------ CAROUSEL*/
-
-.carousel-item {       
-    color: #fafafa;
-    position: relative;
-}
-
-.carousel-container {
-    position: absolute;
-    bottom: 0;
-    left: 50px;
-    right: 0;
-    padding-bottom: 50px;
-}
-
-.overlay-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: center top;
-    background-size: cover;
-    /* opacity: 0.9; */
-}
-
-.carousel-container h1 {
-    font-size: 120px;
-    font-weight: 400;
-}
-
-.carousel-container h2 {
-    font-size: 80px;
-    font-weight: 300;
-    color: #BFBFBF;
-}
 
 /* ------------------------ MOTIVATION BOX*/
 
@@ -639,6 +637,11 @@ body p {
 
     .carousel-item {
         height: 40vh;      
+    }
+
+    .carousel-container {        
+        left: 25px;
+        bottom: 25px;
     }
 
     .carousel-container h1 {
