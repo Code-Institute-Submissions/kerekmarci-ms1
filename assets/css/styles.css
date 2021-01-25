@@ -8,6 +8,8 @@
     --main-paragraph-color: #9B9B9B;
 }
 
+/* ------------------------ MAIN FONTS, HEADINGS & COLORS */
+
 body {    
     font-family: var(--main-body-font);    
     background-color: #ffffff;   
@@ -18,29 +20,54 @@ body p {
     color: var(--main-paragraph-color);
 }
 
+.section-title h2 {             /* Section headings on the Index page */
+    font-size: 40px;
+    text-align: center;
+    color: #383838;
+    letter-spacing: 2px;    
+}
+
+.page-heading {                 /* Paragraph titles on the individual pages */
+    font-family: "Raleway", sans-serif;
+    color: #383838;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin-bottom: 25px; 
+}
+
+.section-content {              /*  Section paragraph format on the Index page */  
+    line-height: 1.7;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img-caption {                  /* Captions for images on the Index page */
+    font-weight: 300; 
+    letter-spacing: 2px;     
+}
+
 #footer-bar p {
     font-family: 'Oswald', sans-serif; 
 }
 
 
-/* ------------------------ PADDINGS, MARGINS, TEXT */
+/* ------------------------ PADDINGS, MARGINS, TEXT, POSITIONING */
 
-.uppercase {
-    text-transform: uppercase;
-}
-
-.container-wrapper {
-    margin-top: 80px;
-    margin-bottom: 80px;
+.container-wrapper {    /* Paddings and margins around the sections */
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-.card {
-    margin: 0px 5px;
+.card {                 /* For content in card-style (i.e. Pricing) */
+    margin: 0px 5px;   
+    background-color: #ece5e5;
 }
 
-.vh-center { /* Vertical and horizontal centering*/
+.vh-center {            /* Vertical and horizontal centering*/
     margin: 0;
     position: absolute;
     top: 50%;
@@ -49,8 +76,12 @@ body p {
     transform: translate(-50%, -50%);
 }
 
-.link-box,
-.link-box:hover { /* Link text with a box border around */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.link-box,              /* Border around a link */
+.link-box:hover { 
     color: #fff;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -75,6 +106,38 @@ body p {
     border: 1px solid #DB4749;
     padding: 8px;
 }
+
+/* ------------------------ NAVBAR */
+
+.gym-name-part-1 {
+    color: #DB4749;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.gym-name-part-2 {
+    color: #BFBFBF; 
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.navbar {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    background-color: #222222;    
+}
+
+.nav-link {
+    font-family: var(--navbar-font);
+    text-transform: uppercase;
+    color: var(--navbar-color);
+    font-weight: 600;
+}
+
 
 
 /* ------------------------ BANNER */
@@ -115,72 +178,56 @@ body p {
     font-style: italic;    
 }
 
-/* ------------------------ HEADINGS */
 
-/* Section headings on the Index page */
-.section-title h2 {
-    font-size: 40px;
-    text-align: center;
-    color: #383838;
-    letter-spacing: 2px;    
+/* ------------------------ FOOTER */
+
+
+#footer-bar {
+    margin-top: 30px;
+    background-color: #222222;
+    color: #9B9B9B;
 }
 
-/* Paragraph titles on the individual pages */
-.page-heading {
-    font-family: "Raleway", sans-serif;
-    color: #383838;
-    text-transform: uppercase;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    margin-bottom: 25px; 
-}
-
-/*  Section paragraph format on the Index page */ 
-.section-content {    
-    line-height: 1.7;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-/* Captions for images on the Index page */
-.img-caption {    
-    font-weight: 300; 
-    letter-spacing: 2px;     
-}
-
-
-/* ------------------------ NAVBAR */
-
-.gym-name-part-1 {
-    color: #DB4749;
-    font-size: 2rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.gym-name-part-2 {
-    color: #BFBFBF; 
+#footer-bar h4 {
+    font-size: 20px;
     font-weight: 400;
-    text-transform: uppercase;
     letter-spacing: 2px;
-    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.navbar {
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
-    background-color: #222222;    
+#footer-bar p {
+    color: #fff;
+    margin-left: 30px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
 }
 
-.nav-link {
-    font-family: var(--navbar-font);
-    text-transform: uppercase;
-    color: var(--navbar-color);
-    font-weight: 600;
+#footer-bar span {
+    color: #DB4749;
+    font-weight: 400;
 }
 
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;       
+}
+
+.social-networks i {
+    font-size: 160%;     
+    padding: 5%;
+    color: #9B9B9B;
+    transition: all 0.3s ease; 
+    -webkit-transition: all 0.3s ease;  
+    -moz-transition: all 0.3s ease;
+}
+
+.social-networks i:hover {
+    color: #DB4749;
+}
 
 /* ------------------------ CAROUSEL*/
 
@@ -297,23 +344,6 @@ body p {
 
 /* ------------------------- SUCCESS STORIES */
 
-.success-stories-wrapper {
-    background-color: #FAFAFA;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.success-header {    
-    margin-bottom: 30px;
-    letter-spacing: 2px;
-}
-
-.success-header > h2 {
-    color: #383838;
-    font-size: 40px;
-    text-align: center;
-}
-
 .review {
     padding: 10px;
     margin-left: 170px;
@@ -323,11 +353,6 @@ body p {
     color: #222222;
     font-weight: 500;
     letter-spacing: 2px;
-}
-
-.review p {
-    font-family: 'Source Sans Pro', Times, serif;
-    margin-top: 20px;
 }
 
 .review-image {
@@ -379,10 +404,6 @@ body p {
     height: 230px;
 }
 
-.pricing-header > p {
-    color: #9B9B9B;
-}
-
 .pricing-header > i {
     margin-bottom: 25px;
 }
@@ -417,183 +438,17 @@ body p {
     letter-spacing: 0.8px;
 }
 
-
 .active {
     color: #fff;
 }
 
-.card {    
-    background-color: #ece5e5;
-}
-
-.card-title {
-    font-family: 'Heebo', sans-serif;
-}
-
-
-
-/* ------------------------ FOOTER */
-
-
-#footer-bar {
-    margin-top: 30px;
-    background-color: #222222;
-    color: #9B9B9B;
-}
-
-#footer-bar h4 {
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#footer-bar p {
-    color: #fff;
-    margin-left: 30px;
-    font-weight: 300;
-    letter-spacing: 0.8px;
-}
-
-#footer-bar span {
-    color: #DB4749;
-    font-weight: 400;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks li {
-    display: inline;       
-}
-
-.social-networks i {
-    font-size: 160%;     
-    padding: 5%;
-    color: #9B9B9B;
-    transition: all 0.3s ease; 
-    -webkit-transition: all 0.3s ease;  
-    -moz-transition: all 0.3s ease;
-}
-
-.social-networks i:hover {
-    color: #DB4749;
-}
-
-/* ------------------------ MEMBERSHIPS ----------- */
-
-#membership-wrapper {
-    background-color: #222222;
-    padding: 30px 0px;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/pricing-plan-bg2.jpg");    
-    background-position: center center;
-      
-}
-
-.membership-heading {
-    font-size: 60px;
-}
-
-.membership-desciption {
-    color: #DB4749;
-    font-style: italic; 
-}
-
-.membership-icon {
-    font-size: 36px;
-}
-
-.pricing-content {
-    position: relative;
-    height: 280px;
-}
- 
-
-/* ------------------------ PHOTO GALLERY ----------- */
-
-#gallery img {
-    width: 380px; 
-    transition: transform .2s;     
-}
-
-#gallery img:hover {
-    transform: scale(1.05);    
-}
-
-/* ------------------------ CONTACT FORM ----------- */
-
-.contactus-wrapper {
-    margin-top: 40px;
-}
-
-#contact-form h5 {
-    font-family: "Oswald", sans-serif;
-    font-size: 17px;
-    color: #383838;
-    letter-spacing: 1px; 
-    margin-bottom: 15px;  
-    font-weight: 400;
-}
-
- input[type="radio"] {
-    margin-left: 20px;
- }
-
- .form-selection {
-    font-family: 'Source Sans Pro', Times, serif;
-    color: #9B9B9B; 
- }
-
- button[type="submit"] {
-    letter-spacing: 1px;   
-    transition: all 0.3s ease; 
-    -webkit-transition: all 0.3s ease;  
-    -moz-transition: all 0.3s ease;
- }
-
- button[type="submit"]:hover {
-    color: #DB4749;    
- }
-
- /*
- input[type="text"]:hover {
-    background-color: rgb(245, 245, 245);
- }
-*/
-
-.email-link {
-    font-family: 'Source Sans Pro', Times, serif;
-    color: #9B9B9B;
-    text-decoration: none;
-    transition: all 0.3s ease; 
-}
-
-.email-link:hover {
-    color: #DB4749;
-}
-
-
-/* ------------------------ FACILITIES ----------- */
-
-.textwrap-right {    
-    float: right;
-    margin-left: 50px;
-}
-
-.textwrap-left {    
-    float: left;
-    margin-right: 50px;
-}
+/* ------------------------ FACILITIES PAGE ----------- */
 
 #facilities {
     max-width: 1000px;
 }
 
-#facilities p {
-    font-family: 'Source Sans Pro', Times, serif;
-    color: #9B9B9B;
+#facilities p {    
     margin-bottom: 30px;
 }
 
@@ -614,6 +469,90 @@ body p {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* ------------------------ MEMBERSHIPS PAGE ----------- */
+
+#membership-wrapper {
+    background-color: #222222;
+    padding: 30px 0px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/pricing-plan-bg2.jpg");    
+    background-position: center center;      
+}
+
+.membership-heading {
+    font-size: 60px;
+    opacity: 0.9;  
+}
+
+.membership-description {
+    color: #DB4749;
+    font-style: italic;     
+}
+
+.membership-icon {
+    font-size: 36px;
+}
+
+.pricing-content {
+    position: relative;
+    height: 280px;
+}
+ 
+
+/* ------------------------ PHOTO GALLERY PAGE ----------- */
+
+#gallery img {
+    width: 380px; 
+    transition: transform .2s;     
+}
+
+#gallery img:hover {
+    transform: scale(1.05);    
+}
+
+/* ------------------------ CONTACT FORM PAGE ----------- */
+
+#contact-form h5 {    
+    font-size: 17px;
+    color: #383838;
+    letter-spacing: 1px; 
+    margin-bottom: 15px;  
+    font-weight: 400;
+}
+
+ input[type="radio"] {
+    margin-left: 20px;
+ }
+
+ .form-selection {
+    font-family: var(--main-paragraph-font);
+    color: var(--main-paragraph-color);
+ }
+
+ button[type="submit"] {
+    letter-spacing: 1px;   
+    transition: all 0.3s ease; 
+    -webkit-transition: all 0.3s ease;  
+    -moz-transition: all 0.3s ease;
+ }
+
+ button[type="submit"]:hover {
+    color: #DB4749;    
+ } 
+
+.email-link {
+    font-family: var(--main-paragraph-font);
+    color: var(--main-paragraph-color);
+    text-decoration: none;
+    transition: all 0.3s ease; 
+}
+
+.email-link:hover {
+    color: #DB4749;
+}
+
+
+
 
 /* ------------------------ MEDIA QUERIES ----------- */
 
@@ -723,7 +662,7 @@ body p {
         padding-right: 15px;
     }
     
-    .facilities-grid-row-text {        
+    .facilities-grid-row-text {              /* For mobile view to place image under text */
         flex-direction: column-reverse;      
     }    
     
