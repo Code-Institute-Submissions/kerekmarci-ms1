@@ -3,17 +3,19 @@
 :root {
     --navbar-font: 'Source Sans Pro', Times, serif;
     --navbar-color: #B3B3B3;
-    --carousel-font: 'Oswald', sans-serif; 
+    --main-body-font: 'Oswald', sans-serif; 
+    --main-paragraph-font: 'Source Sans Pro', Times, serif;
+    --main-paragraph-color: #9B9B9B;
 }
 
 body {    
-    font-family: 'Oswald', sans-serif;    
+    font-family: var(--main-body-font);    
     background-color: #ffffff;   
 }
 
 body p {
-    font-family: 'Source Sans', 'Source Sans Pro', Times, serif;
-    color: #9B9B9B;
+    font-family: var(--main-paragraph-font);
+    color: var(--main-paragraph-color);
 }
 
 #footer-bar p {
@@ -115,6 +117,15 @@ body p {
 
 /* ------------------------ HEADINGS */
 
+/* Section headings on the Index page */
+.section-title h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #383838;
+    letter-spacing: 2px;    
+}
+
+/* Paragraph titles on the individual pages */
 .page-heading {
     font-family: "Raleway", sans-serif;
     color: #383838;
@@ -123,6 +134,19 @@ body p {
     font-weight: 700;
     letter-spacing: 1.4px;
     margin-bottom: 25px; 
+}
+
+/*  Section paragraph format on the Index page */ 
+.section-content {    
+    line-height: 1.7;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Captions for images on the Index page */
+.img-caption {    
+    font-weight: 300; 
+    letter-spacing: 2px;     
 }
 
 
@@ -183,7 +207,7 @@ body p {
 }
 
 .carousel-container {
-    font-family: var(--carousel-font);
+    font-family: var(--main-body-font);
 }
 
 .carousel-container h1 {
@@ -247,42 +271,6 @@ body p {
     max-width: 550px;
 }
 
-/* ------------------------ WHO ARE WE? ------------ OUR TRAINERS ---------*/
-/* These two sections share very similar styling*/
-
-
-.whoarewe p {
-    font-family: 'Source Sans', 'Source Sans Pro', Times, serif;
-    color: #9B9B9B;
-}
-
-.whoarewe > img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.whoarewe > h5 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300; 
-    letter-spacing: 2px;     
-}
-
-.whoarewe-header h2 {
-    font-size: 40px;
-    text-align: center;
-    color: #383838;
-    letter-spacing: 2px;    
-}
-
-.whoarewe-content {
-    color: #9B9B9B;
-    font-family: 'Source Sans', 'Source Sans Pro', Times, serif;
-    line-height: 1.7;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-
 
 /* ------------------------ FEATURES*/
 
@@ -338,7 +326,7 @@ body p {
 }
 
 .review p {
-    font-family: 'Source Sans', 'Source Sans Pro', Times, serif;
+    font-family: 'Source Sans Pro', Times, serif;
     margin-top: 20px;
 }
 
@@ -554,7 +542,7 @@ body p {
  }
 
  .form-selection {
-    font-family: 'Source Sans', 'Source Sans Pro', Times, serif;
+    font-family: 'Source Sans Pro', Times, serif;
     color: #9B9B9B; 
  }
 
@@ -576,7 +564,7 @@ body p {
 */
 
 .email-link {
-    font-family: 'Source Sans', 'Source Sans Pro', Times, serif;
+    font-family: 'Source Sans Pro', Times, serif;
     color: #9B9B9B;
     text-decoration: none;
     transition: all 0.3s ease; 
@@ -604,7 +592,7 @@ body p {
 }
 
 #facilities p {
-    font-family: 'Source Sans', 'Source Sans Pro', Times, serif;
+    font-family: 'Source Sans Pro', Times, serif;
     color: #9B9B9B;
     margin-bottom: 30px;
 }
