@@ -109,8 +109,22 @@ The skeleton of the website is available in the below wireframes, for both deskt
 One of the main goals of the website is to be visually appealing and to convey the feeling of the gym. A dark background can add a dynamic feel to the website,
 therefore I chose to have a dark landing page. Further idea was to select colours that compliment dark colours well, and the colours I selected are grey, white and a variant of red.
 
-* Colours
+* Colours:
+When determining colours, it was important that they are in harmony, have enough colours to cover the whole range of website, although not too many as that would work against consisntency. 
+I wanted all the colours to give a consistent feel throughout the website, as well as be visually pleasing for the eye and have enough contrast between them to support easy reading.
+
+For the dark theme, I selected an off-black as an alternateive, with colour code #222222.
+The main complimentary colour of black is white, with colour code #FFFFFF. The section backgrounds can alter in between these two.
+For elements slightly lighter than black I have chosem a dark grey with colour code #383838.
+For the paragraphs, I selected a light grey that is good fit in the pallette, yet dark enough to be visible on a white background - its colour code is #9B9B9B.
+Red is a great complimentary colour for black, I've selected an alternateive with colour code #DB4749.
+
+The colours in a pallette can be seen here:
+
+![Colour pallette for the website scheme](https://github.com/kerekmarci/gym-website/blob/master/assets/docs/colour-palette.jpg)
+
 * Tipography:
+
 * Icons
 
 ---
