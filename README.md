@@ -127,10 +127,10 @@ The colours in a pallette can be seen here:
 
 Consisntency was also a key when selecting fonts, that a complimentary to each other and provide a visually appealing consisntency throughout the site.
 
-* The main headlines and titles are Oswald
-* The main paragraph text is Source Sans Pro
-* For the titles of smaller, yet important paragrahps, Raleway will be used
-* For the main landing page, for the motivational text below the carousel, I was looking for sans serif font that is a goof fit for a quick description. PT Sans seemed to be a good fit which is based on Russian sans serif font types 
+* The main headlines and titles are *Oswald*
+* The main paragraph text is *Source Sans Pro*
+* For the titles of smaller, yet important paragrahps, *Raleway* will be used
+* For the main landing page, for the motivational text below the carousel, I was looking for sans serif font that is a goof fit for a quick description. *PT Sans* seemed to be a good fit which is based on Russian sans serif font types 
 
 * **Icons:**
 
@@ -140,17 +140,43 @@ FontAwesome icons are used across the website for highlighting features of the g
 
 ## Features
 
+Below is the overview of the main features of the website:
+
 ### Homepage
 
-* Motivating visual on the main landing page
-* Brief overview on the offerings
-* Reviews
+* The main landing page will contain an overview of the gym features in a vertical layout, arranged in various sections
+* Navbar will be located on the top, that will collapes into a hamburger icon on small-screen devices
+* Motivating visual will be featured in the middle of the page, in the form of a carousel
+* 2 quick highlights will be added under the carousel, containing a link to a sellable feature of the gym on the same page
+* Brief overview on the offerings and gym features below
+* Reviews of two members to encourage enrolment
+* Highlight of the personal trainings offered
+
+### Memberships
+
+* Membership types will be presented in card-type. This provides a quick overview of the options available
+* From the selling point of view, sandwich-method will be used. Too many options would have a negative impact on the users, therefore 3 different membership
+options will be highlighted, with the middle one that the gym is likely to sell the most
+* A button under each membersip will take the user to the Memberships page where a contact form is immediately available
+
+### Facilities and Gallery page
+
+* Description of the facilities so that users will have a clear expectation of the gym. 
+* Photos available throughout as this is always sought-after by website visitors
+
+### Contact form
+
+* An easy access to a contact form where the location and other contact details of the gym are described
+* Contact form gives users an easy access to contact the gym
+* Please NOTE that this is a 1st Milestone project, where only HTML5 and CSS3 are used for this project for a fictional gym. The send button will not send any message
 
 ### Footer
 
+The footer will provide a quick and consistent access to some key information:
+
 * Opening hours
 * Address
-* Embedded google map
+* Social links
 
 ---
 
