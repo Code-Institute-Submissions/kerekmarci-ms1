@@ -140,7 +140,7 @@ FontAwesome icons are used across the website for highlighting features of the g
 
 * **Other aesthetic adjustments**
 
-To the benefit or colour harmony, the images on the carousel have been adjusted to better fit the overall colour scheme of the site.\
+To the benefit or colour harmony, the images on the carousel have been adjusted to better fit the overall colour scheme of the site.
 For example, this photo had originally a cool tone and yellow bars, however, altering the overall feel towards a warmer red makes it a better fit to the dark-red complimentary colours already used on the site.\
 
 ![Before-after demonstration for the main carousel](https://github.com/kerekmarci/gym-website/blob/master/assets/docs/before_after.jpg)
