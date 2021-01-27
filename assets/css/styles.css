@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&family=PT+Sans:wght@400;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&family=PT+Sans:wght@400;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
     --navbar-font: 'Source Sans Pro', Times, serif;
@@ -6,6 +6,7 @@
     --main-body-font: 'Oswald', sans-serif; 
     --main-paragraph-font: 'Source Sans Pro', Times, serif;
     --main-paragraph-color: #9B9B9B;
+    --motivation-box-font: 'PT Sans', sans-serif;
 }
 
 /* ------------------------ MAIN FONTS, HEADINGS & COLORS */
@@ -149,17 +150,6 @@ body p {
     height: 400px;      
 } 
 
-/* To darken background image
-#overlay {  
-    position: absolute;
-    background-color: #000;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.55;    
-} */ 
-
 #banner h1 {      
     font-size: 60px;
     letter-spacing: 3px; 
@@ -268,8 +258,6 @@ body p {
     color: #BFBFBF;
 }
 
-
-
 /* ------------------------ MOTIVATION BOX*/
 
 #motivation h5 {    
@@ -278,7 +266,7 @@ body p {
 }
 
 #motivation p {
-    font-family: 'PT Sans', sans-serif;
+    font-family: var(--motivation-box-font);
     color: #fff;
     font-size: 15px;
     margin-top: 60px;
@@ -317,7 +305,6 @@ body p {
 .motivation-text-right {
     max-width: 550px;
 }
-
 
 /* ------------------------ FEATURES*/
 
@@ -549,9 +536,6 @@ body p {
 .email-link:hover {
     color: #DB4749;
 }
-
-
-
 
 /* ------------------------ MEDIA QUERIES ----------- */
 
