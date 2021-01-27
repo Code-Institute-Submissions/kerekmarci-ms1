@@ -86,42 +86,52 @@
             <div class="form-group">
                 <form>
                     <h5><label for="name">Name</label></h5>
-                    <input type="text" id="name" name="username" class="form-control" placeholder="Your name" required>
+                    <input type="text" id="name" name="username" class="form-control" placeholder="Your name" aria-required="true" aria-invalid="true" aria-describedby="hintName errorName" required>
+                    <span id="hintName" class="sr-only">Please enter your name</span>
+                    <span id="errorName" class="sr-only">You have not entered a name</span>
 
                     <br>
 
                     <h5><label for="email">Email</label></h5>
-                    <input type="email" name="email" id="email" class="form-control" placeholder="Your email" required>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Your email" aria-required="true" aria-invalid="true" aria-describedby="hintEmail errorEmail" required>
+                    <span id="hintEmail" class="sr-only">Please enter your email</span>
+                    <span id="errorEmail" class="sr-only">You have not entered an email</span>
 
                     <br>
 
                     <h5>Subject</h5>
-                    <div class="form-selection">
-                        <input type="radio" name="subject" id="membership" value="membership" required>
-                        <label for="membership">Memberships</label>
-                    </div>
+                    <fieldset aria-describedby="inqType">
+                        <div class="form-selection">
+                            <input type="radio" name="subject" id="membership" value="membership" required>
+                            <label for="membership">Memberships</label>
+                        </div>
 
-                    <div class="form-selection">
-                        <input type="radio" name="subject" id="classes" value="classes">
-                        <label for="classes">Classes</label>
-                    </div>
+                        <div class="form-selection">
+                            <input type="radio" name="subject" id="classes" value="classes">
+                            <label for="classes">Classes</label>
+                        </div>
 
-                    <div class="form-selection">
-                        <input type="radio" name="subject" id="pt" value="pt">
-                        <label for="pt">Personal training</label>
-                    </div>
+                        <div class="form-selection">
+                            <input type="radio" name="subject" id="pt" value="pt">
+                            <label for="pt">Personal training</label>
+                        </div>
 
-                    <div class="form-selection">
-                        <input type="radio" name="subject" id="otherinquiry" value="otherinquiry">
-                        <label for="otherinquiry">Other</label>
-                    </div>
+                        <div class="form-selection">
+                            <input type="radio" name="subject" id="otherinquiry" value="otherinquiry">
+                            <label for="otherinquiry">Other</label>
+                        </div>
+                    </fieldset>
+                    <span id="inqType" class="sr-only">You must select your type of inquiry.</span>
+                    
                     <br>
                     <div class="pb-3">
                         <h5><label for="message">Your message</label></h5>
-                        <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
+                        <textarea name="message" id="message" class="form-control" rows="5" aria-required="true" aria-invalid="true" aria-describedby="hintMessage errorMessage" required></textarea>
+                        <span id="hintMessage" class="sr-only">Please enter your email</span>
+                        <span id="errorMessage" class="sr-only">You have not entered an email</span>
                     </div>    
 
-                    <button type="submit">Send</button>
+                    <button type="submit" aria-label="Send message">Send</button>
 
                 </form>
             </div>
