@@ -231,8 +231,8 @@ The wireframes show the plan how the site is intented to look an wider and small
 
 ### Validation
 
-* Jigsaw for CSS
-* W3C for HTML
+* Jigsaw for CSS: validation passed
+* W3C for HTML: validation passed
 
 ---
 
@@ -243,4 +243,5 @@ To create a local clone, open Git Bash, type: *git clone https://github.com/kere
 
 ## Media credits
 
-The photos for the website were created 
+The photos for the website were created by myself or downloaded from [Pexels](www.pexels.com) as a royalty-free image.\
+The photos in the carousel were licensed from *Adobe Stock.*
