@@ -123,7 +123,7 @@ The colours in a pallette can be seen here:
 
 ![Colour pallette for the website scheme](https://github.com/kerekmarci/gym-website/blob/master/assets/docs/colour-palette.jpg)
 
-* **Tipography:**
+* **Typography:**
 
 Consisntency was also a key when selecting fonts, that a complimentary to each other and provide a visually appealing consisntency throughout the site.
 
@@ -184,28 +184,63 @@ The footer will provide a quick and consistent access to some key information:
 
 ### Languages
 
-* HTML
-* CSS
+* HTML5
+* CSS3
 
 ### Libraries
 
-* Bootstrap: open-source CSS framework for creating responsive, mobile-first front-end web development
-* Balsamiq: creating wireframes 
-* Google fonts 
+* Bootstrap 5: open-source CSS framework for creating responsive, mobile-first front-end web development
+* Balsamiq: an industry standard low-fidelity wireframing tool
+* Google Fonts: for providing stylish fonts across the website
+* FontAwesome: One of the world's most popular selection of icons
 
 ### Version control
 
-* Github
-* Gitpod 
+* Github: is used to store all codes and host the website 
+* Gitpod: is used as a IDE and to push code to Github
+
 
 ---
 
 ## Testing
 
-   ### Devices
-   ### Validation
+There has been a variety of testings carried out on the website. One of the most important elements of the site is to be responsive and that the design/layout loads aesthetically on various devices with different screen size.
+The wireframes show the plan how the site is intented to look an wider and smaller-screen devices.
+
+* PC: the website has been loaded to PCs with Google Chrome, Firefox and Edge browsers and the result was as intented
+* Mobile: tested on Android and iOS systems 
+* Tablet: page was loaded on an iPad
+* [Google mobile friendly test](https://search.google.com/test/mobile-friendly): the website passed and the site was declared mobile-friendly
+
+### Testing user stories
+
+1. As a user, I would like an easy navigation on desktop, tablet and mobile devices\
+    *The website was tested on a variety of screen sizes to ensure the layout appears as intented*
+    
+2. As a user, I would like to see up-to-date information
+    *The website shows recent photos and prices of the gym*
+
+3. As a user, I would like to see visual and realistic content of the gym
+    *The website not only shows a range of photos of the gym, but there are potraits of the presonal trainers and snapshots of the classes*
+
+4. As a user, I would like to have quick access to all necessary information available by an easy menu system 
+    *In the menu sytem, all features can be accessed within one click*
+
+5. As a user, I would like to be able to contact the gym easily if needed 
+    *Contact information is available in the footer on all pages. There's a contact menu on the navigation bar with a one-click access to a contact form, where email address and a Google Map are also present. There's also a quick contact form on the memberships page.*
+
+### Validation
+
+* Jigsaw for CSS
+* W3C for HTML
 
 ---
 
 ## Deployment
 
+The website was deployed to *GitHub* that is hosting the site, and is available to view at https://kerekmarci.github.io/gym-website/ \
+To create a local clone, open Git Bash, type: *git clone https://github.com/kerekmarci/gym-website.git* \
+
+## Media credits
+
+The photos for the website were created 
