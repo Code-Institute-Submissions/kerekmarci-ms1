@@ -19,11 +19,11 @@ classes and other relevant information that will benefit both new and existing m
 The website will rely on visuals and easy navigation - since the website is aimed at potential visitors of the gym as well as existing members,
 I would like to evoke emotions by showcasing them a fit and healty lifestyle. 
 
-### Stragegy
+### Strategy
 
 Target audience:
-* people living withing the radius of 10 miles of the gym
-* people intersted in healthy lifestyle
+* people living within the radius of 10 miles of the gym
+* people interested in healthy lifestyle
 * potential new members to sign up for a Membership
 * existing members who wish to stay up-to-date on information related to the gym
 
@@ -42,7 +42,7 @@ User stories:
 * As a user, I would like to be able to contact the gym easily if needed 
 
 Business goals: 
-* Increase memberhips by 15% (in 2021)
+* Increase memberships by 15% (in 2021)
 * Grow Revenue by 20% 
 * Starting personal training with 3 trainers
 
@@ -121,7 +121,7 @@ Red is a great complimentary colour for black, I've selected an alternateive wit
 
 The colours in a pallette can be seen here:
 
-![Colour pallette for the website scheme](https://github.com/kerekmarci/gym-website/blob/master/assets/docs/colour-palette.jpg)
+![Colour palette for the website scheme](https://github.com/kerekmarci/gym-website/blob/master/assets/docs/colour-palette.jpg)
 
 * **Typography:**
 
@@ -217,16 +217,16 @@ The wireframes show the plan how the site is intented to look an wider and small
 1. As a user, I would like an easy navigation on desktop, tablet and mobile devices\
     *The website was tested on a variety of screen sizes to ensure the layout appears as intented*
     
-2. As a user, I would like to see up-to-date information
+2. As a user, I would like to see up-to-date information\
     *The website shows recent photos and prices of the gym*
 
-3. As a user, I would like to see visual and realistic content of the gym
+3. As a user, I would like to see visual and realistic content of the gym\
     *The website not only shows a range of photos of the gym, but there are potraits of the presonal trainers and snapshots of the classes*
 
-4. As a user, I would like to have quick access to all necessary information available by an easy menu system 
+4. As a user, I would like to have quick access to all necessary information available by an easy menu system\
     *In the menu sytem, all features can be accessed within one click*
 
-5. As a user, I would like to be able to contact the gym easily if needed 
+5. As a user, I would like to be able to contact the gym easily if needed\
     *Contact information is available in the footer on all pages. There's a contact menu on the navigation bar with a one-click access to a contact form, where email address and a Google Map are also present. There's also a quick contact form on the memberships page.*
 
 ### Validation
@@ -239,7 +239,7 @@ The wireframes show the plan how the site is intented to look an wider and small
 ## Deployment
 
 The website was deployed to *GitHub* that is hosting the site, and is available to view at https://kerekmarci.github.io/gym-website/ \
-To create a local clone, open Git Bash, type: *git clone https://github.com/kerekmarci/gym-website.git* \
+To create a local clone, open Git Bash, type: *git clone https://github.com/kerekmarci/gym-website.git* 
 
 ## Media credits
 
