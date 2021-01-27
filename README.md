@@ -5,6 +5,8 @@
 This website for created as my 1st Milestone Project during my studies at the Code Institute. 
 The website will showcase the languages and tools learned so far, which are HTML5, CSS3 and Bootstrap.
 
+![Photo of the finished website](https://github.com/kerekmarci/gym-website/blob/master/assets/docs/website.JPG)
+
 ---
 
 ## Description
@@ -136,6 +138,13 @@ Consisntency was also a key when selecting fonts, that a complimentary to each o
 
 FontAwesome icons are used across the website for highlighting features of the gym and social links. 
 
+* **Other aesthetic adjustments**
+
+To the benefit or colour harmony, the images on the carousel have been adjusted to better fit the overall colour scheme of the site.\
+For example, this photo had originally a cool tone and yellow bars, however, altering the overall feel towards a warmer red makes it a better fit to the dark-red complimentary colours already used on the site.\
+
+![Before-after demonstration for the main carousel](https://github.com/kerekmarci/gym-website/blob/master/assets/docs/before_after.jpg)
+
 ---
 
 ## Features
@@ -178,6 +187,11 @@ The footer will provide a quick and consistent access to some key information:
 * Address
 * Social links
 
+### Accessibility
+
+* For all images on the website, *alt description* has been added as an alternative text
+* For the contact form, aria elements are used with meaningful description to facilitate screenreaders
+
 ---
 
 ## Technologies used
@@ -199,7 +213,6 @@ The footer will provide a quick and consistent access to some key information:
 * Github: is used to store all codes and host the website 
 * Gitpod: is used as a IDE and to push code to Github
 
-
 ---
 
 ## Testing
@@ -211,6 +224,7 @@ The wireframes show the plan how the site is intented to look an wider and small
 * Mobile: tested on Android and iOS systems 
 * Tablet: page was loaded on an iPad
 * [Google mobile friendly test](https://search.google.com/test/mobile-friendly): the website passed and the site was declared mobile-friendly
+* Responsivity: [Ami responsive design](http://ami.responsivedesign.is/)
 
 ### Testing user stories
 
