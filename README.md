@@ -190,7 +190,7 @@ The footer will provide a quick and consistent access to some key information:
 ### Accessibility
 
 * For all images on the website, *alt description* has been added as an alternative text
-* For the contact form, aria elements are used with meaningful description to facilitate screenreaders
+* For the contact form, *aria elements* are used with meaningful description to facilitate screenreaders
 
 ---
 
@@ -246,7 +246,9 @@ The wireframes show the plan how the site is intented to look an wider and small
 ### Validation
 
 * Jigsaw for CSS: validation passed
-* W3C for HTML: validation passed
+* W3C for HTML: validation passed, altough two errors need to be noted
+    * W3C validator showed two error for the iframe on the Contact page - this is the embedded Google Maps. This code was copy-pasted from Google and is fully functional
+    on the website, therefore it was left as it is
 
 ---
 
