@@ -145,42 +145,51 @@
             <div class="form-group">
                 <form>
                     <h5><label for="name">Name</label></h5>
-                    <input type="text" id="name" name="username" class="form-control" placeholder="Your name" required>
+                    <input type="text" id="name" name="username" class="form-control" placeholder="Your name" aria-required="true" aria-invalid="true" aria-describedby="hintName errorName" required>
+                    <span id="hintName" class="sr-only">Please enter your name</span>
+                    <span id="errorName" class="sr-only">You have not entered a name</span>
 
                     <br>
 
                     <h5><label for="email">Email</label></h5>
-                    <input type="email" name="email" id="email" class="form-control" placeholder="Your email" required>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Your email" aria-required="true" aria-invalid="true" aria-describedby="hintEmail errorEmail" required>
+                    <span id="hintEmail" class="sr-only">Please enter your email</span>
+                    <span id="errorEmail" class="sr-only">You have not entered an email</span>
 
                     <br>
 
                     <h5>Membership type</h5>
-                    <div class="form-selection">
-                        <input type="radio" name="memb-type" id="basic-memb" value="basic-memb" required>
-                        <label for="basic-memb">Basic plan</label>
-                    </div>
+                    <fieldset aria-describedby="membType">
+                        <div class="form-selection">
+                            <input type="radio" name="memb-type" id="basic-memb" value="basic-memb" required>
+                            <label for="basic-memb">Basic plan</label>
+                        </div>
 
-                    <div class="form-selection">
-                        <input type="radio" name="memb-type" id="sports-memb" value="sports-memb">
-                        <label for="sports-memb">Sports plan</label>
-                    </div>
+                        <div class="form-selection">
+                            <input type="radio" name="memb-type" id="sports-memb" value="sports-memb">
+                            <label for="sports-memb">Sports plan</label>
+                        </div>
 
-                    <div class="form-selection">
-                        <input type="radio" name="memb-type" id="pro-memb" value="pro-memb">
-                        <label for="pro-memb">Professional plan</label>
-                    </div>
+                        <div class="form-selection">
+                            <input type="radio" name="memb-type" id="pro-memb" value="pro-memb">
+                            <label for="pro-memb">Professional plan</label>
+                        </div>
 
-                    <div class="form-selection">
-                        <input type="radio" name="memb-type" id="otherinquiry" value="otherinquiry">
-                        <label for="otherinquiry">Other inquiry</label>
-                    </div>
+                        <div class="form-selection">
+                            <input type="radio" name="memb-type" id="otherinquiry" value="otherinquiry">
+                            <label for="otherinquiry">Other inquiry</label>
+                        </div>
+                    </fieldset>
+                    <span id="membType" class="sr-only">You must select your type of membership.</span>
                     <br>
                     <div class="pb-3">
                         <h5><label for="message">Your message</label></h5>
-                        <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
+                        <textarea name="message" id="message" class="form-control" rows="5" aria-required="true" aria-invalid="true" aria-describedby="hintMessage errorMessage" required></textarea>
+                        <span id="hintMessage" class="sr-only">Please enter your message</span>
+                        <span id="errorMessage" class="sr-only">You have not entered a message</span>
                     </div>    
 
-                    <button type="submit">Submit</button>
+                    <button type="submit" aria-label="Send message">Submit</button>
 
                 </form>
             </div>
